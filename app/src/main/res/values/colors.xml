@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#ffff1500</color>
+    <color name="primary_dark">#ffc90406</color>
+    <color name="accent">#ffff6609</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="link_text">#ff4d83b3</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <!-- Tile colors-->
+    <color name="tile_1">#ff839098</color>
+    <color name="tile_2">#ffF7D842</color>
+    <color name="tile_3">#ffF76D3C</color>
+    <color name="tile_4">#ffF15F74</color>
+    <color name="tile_5">#ff913CCD</color>
+    <color name="tile_6">#ff2CA8C2</color>
+    <color name="tile_7">#ff98CB4A</color>
+    <color name="tile_8">#ff5481E6</color>
+
+</resources>

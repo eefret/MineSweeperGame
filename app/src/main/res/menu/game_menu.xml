@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="reset"
+        android:id="@+id/reset"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_settings_backup_restore_black_24dp"
+        />
+    <item
+        android:title="cheat"
+        android:id="@+id/cheat"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_visibility_black_24dp"
+        />
+    <item
+        android:title="done"
+        android:id="@+id/done"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_done_black_24dp"
+        />
+</menu>

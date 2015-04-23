@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">MineSweeperGame</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">MinesSweeper</string>
+    <string name="btn_new_game">New Game</string>
+    <string name="btn_continue_game">Continue Game</string>
+    <string name="btn_high_scores">High Score</string>
+    <string name="btn_exit">Exit</string>
+    <string name="dialog_difficulty_title">Choose difficulty level</string>
+    <string name="dialog_difficulty_easy">Easy</string>
+    <string name="dialog_difficulty_medium">Medium</string>
+    <string name="dialog_difficulty_hard">Hard</string>
+    <string name="dialog_difficulty_message">Pick one</string>
+    <string name="f_scorescreen_flag_count_label">Flags</string>
+    <string name="f_scorescreen_score_count_label">Score</string>
+    <string name="lost_dialog_title">You have lost</string>
+    <string name="lost_dialog_message">Want to start again?</string>
+    <string name="OK">OK</string>
+    <string name="CANCEL">CANCEL</string>
+    <string name="won_dialog_message">Want to try again?</string>
+    <string name="won_dialog_title">Congratulations</string>
+</resources>

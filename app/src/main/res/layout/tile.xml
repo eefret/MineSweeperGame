@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.kaissersoft.minesweepergame.ui.widgets.TileButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@id/list_item"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:background="@drawable/filled_tile"
+    android:textSize="16sp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:padding="0dp"
+    android:clickable="false"
+    android:focusable="false"
+    android:textColor="@color/tile_1">
+</com.kaissersoft.minesweepergame.ui.widgets.TileButton>

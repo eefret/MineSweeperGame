@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <ImageView
+        android:layout_width="@dimen/title_image_width"
+        android:layout_height="@dimen/title_image_height"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/ic_main"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="36sp"
+        android:text="@string/title"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+        <Button
+            android:id="@+id/btn_new_game"
+            android:text="@string/btn_new_game"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <!--<Button-->
+            <!--android:id="@+id/btn_continue_game"-->
+            <!--android:text="@string/btn_continue_game"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+        <!--<Button-->
+            <!--android:id="@+id/btn_high_scores"-->
+            <!--android:text="@string/btn_high_scores"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content" />-->
+        <Button
+            android:id="@+id/btn_exit"
+            android:text="@string/btn_exit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

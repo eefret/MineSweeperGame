@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#c0c0c0c0">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/f_scorescreen_flag_count_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/f_scorescreen_flag_count_label"
+            android:textSize="24sp"
+            android:textColor="@color/primary_text"/>
+        <TextView
+            android:id="@+id/f_scorescreen_flag_count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="48sp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#696969"
+            android:text="0"
+            android:textColor="@color/primary"/>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/f_scorescreen_face"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/face_normal"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <TextView
+            android:id="@+id/f_scorescreen_score_count_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/f_scorescreen_score_count_label"
+            android:textSize="24sp"
+            android:textColor="@color/primary_text"/>
+        <TextView
+            android:id="@+id/f_scorescreen_score_count"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="48sp"
+            android:gravity="center_horizontal"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:background="#696969"
+            android:text="0"
+            android:textColor="@color/primary"/>
+    </LinearLayout>
+
+</LinearLayout>
